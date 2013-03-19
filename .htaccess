@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^usuario/(\w+)/?$ index.php?usuario=$1
+RewriteRule ^firma/(\w+)/?$ prueba.php?texto=$1
